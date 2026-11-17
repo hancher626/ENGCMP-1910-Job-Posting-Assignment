@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Composing Digital Media</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">  </script>
+</head>
+
+
+<body>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:70px;">I am Hanchi (Owen) Zhang</h1>
+            <p style="font-size:25px;">Integrating Writing and Design Portfolio</p>
+        </div>
+    </div>
+
+
+    <!--Accessibility considerations
+Opening links in a new tab or window can cause accessibility issues. Here are some reasons why: Links opening in a new tab can prove disorienting for people with low vision or are navigating via screen reader, especially when there is no warning. However, using iframe to package content within a modal also raises accessibility concerns-->
+
+    <div class="container-fluid bg-w text-center">
+        <h1>Design Beginnings </h1><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Design Fuego</h3>
+                <!--Target property opens link in new browser window  -->
+                <a href="" target="_blank">
+                    <!-- Alternatively, you can embed an iframe in the modal window with link to website.-->
+                    <div class="hover">
+                        <a href="./project1/index.html" target="_blank">
+                            <img src="design_fuego.png" class="img-responsive" style="width:100%" alt="Image">
+                        </a>
+                    </div>
+                </a>
+                <p>Design Fuego is my personal website design project. The site includes a self-introduction, a showcase
+                    of my skills, and my reflections on what defines “good design,” as well as my plans for the future.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Logo A/B/C</h3>
+                <!--These properties open anchored modal window. Find "#portfolioModal2" in modal content below, listed after </html>-->
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    <!-- Use .jpg or .png files. Alternatively, you can embed an iframe in the modal window with link to pdf-->
+                    <div class="hover">
+                        <img src="project2.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                </a>
+                <p>This project features three logo designs I created for myself. I chose black, gray, and red as the
+                    primary colors to convey strength and individuality. The designs also integrate my interests in
+                    music, the zodiac, and cars, exploring how visual symbols can represent different dimensions of my
+                    identity.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h3>UX Testing Logo Project</h3>
+                <a class="portfolio-link" target="_blank"
+                    href="https://docs.google.com/presentation/d/1QSUKBI1Lv9ZkIYz0h7lfJ5_doeHuyN-C9HvwpkiSeNs/edit?usp=sharing">
+                    <div class="hover">
+                        <img src="logo.png" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                </a>
+                <p>In this project, I designed a personal logo centered on a horse inspired by traditional Chinese
+                    paper-cutting art. I interviewed three friends to gather feedback and refined the design based on
+                    their suggestions, improving its aesthetics, recognizability, and expression of personal identity.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+
+            <div class="col-sm-4">
+                <h3>Cartoon Portrait</h3>
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                    <div class="hover">
+                        <img src="project4.png" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                </a>
+                <p>This work is a cartoon-style self-portrait created using Adobe InDesign’s pen tool and other
+                    features. Based on a real photograph, I simplified the lines and applied flat colors to achieve an
+                    animated effect, resulting in a playful and stylized representation of myself.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h3>Good Design</h3>
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                    <div class="hover">
+                        <img src="project5.png" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                </a>
+                <p>This project is my analysis of the movie poster for The Exorcist. I examined three aspects—light and
+                    shadow contrast, character composition, and environmental details—to show how they work together to
+                    create tension and a sense of horror. Through this analysis, I reflected on the role of good design
+                    in shaping atmosphere and enhancing visual storytelling.</p>
+            </div>
+
+            <div class="col-sm-2">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container-fluid bg-w text-left">
+        <h3 class="margin text-center">Course Goals</h3>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <p><em>1. Consider the role of rhetoric, technology, and ethics in acts of making.</em></p>
+                <p>
+                    In the “Good Design” movie poster analysis project, I not only examined the use of light and composition in The Exorcist poster, but also explored how visual techniques create a sense of fear. For example, how the wet, sticky feeling of the ground reflection adds to psychological discomfort. 
+                    In the “Design Fuego” personal website project, I wrote a reflection on “what good design is,” discussing the relationship between technical transparency and user trust, and argued that design should avoid manipulation rather than only pursue aesthetic appeal.
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <p><em>2. Leverage Design Principles.</em></p>
+                <p>
+                    The movie poster analysis was a key exercise in understanding design principles: I broke down how contrast (light/dark), layering (spatial depth), and symbols (silhouette figures) work together to build narrative. 
+                    In the Logo A/B/C project, I applied these principles by using black, gray, and red to create visual strength, and experimented with graphic combinations (music, zodiac, cars) to express complex identity within simple forms, reflecting the “less is more” design philosophy.
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <p><em>3. Engage with others in a workshop environment.</em></p>
+                <p>
+                    The UX Testing Logo project was a clear example of collaborative design practice: inspired by Chinese paper-cutting art, I designed a horse-shaped logo and then interviewed three friends for structured feedback on “recognizability” and “personal expression.” 
+                    Based on suggestions that the graphic was too abstract, I kept the paper-cut style but strengthened the motion of the horse's outline, making the logo easier to understand while preserving cultural style—showing how workshop feedback drives design revision.
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+
+            <div class="col-sm-4">
+                <p><em>4. Practice revision within and across media forms.</em></p>
+                <p>
+                    Starting from three initial concepts in the Logo A/B/C project (abstract symbol, text-based mark, combined graphic), I moved to the final paper-cut style logo in the UX Testing Logo project, demonstrating revision across projects. 
+                    Also, in the Cartoon Portrait project, I used the pen tool in InDesign to turn a photo into vector art, trying different line weights and color blocks to explore how the same image can be expressed in different styles.
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <p><em>5. Learn to present your work.</em></p>
+                <p>
+                    By building the “Design Fuego” personal website, I intentionally organized all projects into a visual story: each includes a short description, key images, and design highlights. 
+                    On the site, I added a “Design Thinking” section where, for example, in the movie poster analysis, I not only show the results but also explain how I drew design insights from everyday observation—clearly connecting my practice with the course’s theoretical framework.
+                </p>
+                <div class="col-sm-2">
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="container-fluid bg-b text-center">
+            <h1>Short Form</h1><br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Two-page Spread</h3>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                        <div class="hover">
+                            <img src="project6.png" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                    </a>
+                    <p style="color: white;">I used a two-page spread book cover as a base, scanned it with AI, and
+                        replaced the original text
+                        to completely change its concept.
+                        Finally, I overlaid the original image as a small thumbnail on the new design, creating an
+                        interesting contrast and dialogue.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Infographic</h3>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                        <div class="hover">
+                            <img src="project7.png" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                    </a>
+                    <p style="color: white;">This project took about 5 hours to complete, from researching information
+                        to drawing each graphic
+                        by hand.
+                        I used a recently learned gradient technique for the background and created the bar chart and
+                        all icons using Adobe InDesign.
+                        For the layout, I only used black borders to highlight the key sections and arranged elements
+                        diagonally to balance the overall look.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Advertisement</h3>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                        <div class="hover">
+                            <img src="project8.png" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                    </a>
+                    <p style="color: white;">
+                        This is currently my favorite work. I used a pure black background to create a luxury feel,
+                        placed most of the car on the right side, and arranged text wrapping around it on the left.
+                        I highlighted the word "Best" in red to emphasize the brand's commitment to excellence.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Accessibile Design</h3>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                        <div class="hover">
+                            <img src="project9.png" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                    </a>
+                    <p style="color: white;">As a computer science student, I introduced four simple methods to make
+                        websites more accessible.
+                        The design is symmetrical, with the main title at the top and the goal at the bottom.
+                        Since it aims to support users with disabilities, the wording and content are carefully chosen.
+                        I used two lines content instead of three to to improve scannability.
+                        The design is clean, without unnecessary decorations, and uses a soft yellow-to-green gradient
+                        as the background.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container-fluid bg-b text-left">
+            <h3 class="margin text-center" style="color: white;">Course Goals</h3>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <p style="color: white;"><em>1. Consider the role of rhetoric, technology, and ethics in acts of
+                            making.</em></p>
+                    <p style="color: white;">
+                        In Project 9 (Accessible Design), I consciously chose high-contrast colors and clear typography not just for aesthetics, 
+                        but to address the ethical imperative of inclusive design. This required me to think rhetorically about how visual clarity communicates care for diverse users. 
+                        Similarly, in Project 8 (Advertisement), I used a pure black background and a single red accent (“Best”) as visual rhetoric to construct a message of luxury and exclusivity, 
+                        while considering the ethical weight of such brand promises.
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p style="color: white;"><em>2. Leverage Design Principles.</em></p>
+                    <p style="color: white;">
+                        My understanding of design principles evolved through direct application. 
+                        For Project 7 (Sleep Master Infographic), I used diagonal composition and black borders to create visual movement and hierarchy, directly applying principles of balance and alignment learned in class. 
+                        After feedback on text inconsistency, I revised it to unify font sizes, reinforcing the principle of repetition for clearer communication.
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p style="color: white;"><em>3. Engage with others in a workshop environment.</em></p>
+                    <p style="color: white;">
+                        The workshop was crucial for iterative improvement. For Project 8, I actively sought opinions on the slogan “The Best or Nothing.” 
+                        Based on peer suggestions about visual balance, I experimented with a two-line layout (“The Best / Or Nothing”), which demonstrated how collaborative critique can lead to more refined typographic solutions.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+
+                <div class="col-sm-4">
+                    <p style="color: white;"><em>4. Practice revision within and across media forms.</em></p>
+                    <p style="color: white;">
+                        I practiced revision both within and across projects. 
+                        Within Project 7, I revised the layout multiple times to ensure data clarity. 
+                        Across media, I adapted my approach from the print-inspired two-page spread (Project 6) to the digital-focused infographic (Project 7), learning to compress information for faster scanning in the latter format.
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p style="color: white;"><em>5. Learn to present your work.</em></p>
+                    <p style="color: white;">
+                        I have learned to present my work by connecting each design choice to an intent. 
+                        In my portfolio, I now explicitly state, for example, how in Project 9 I simplified text blocks from 3 to 2 lines to improve scannability—a direct link between the Gestalt principle of proximity and my practical revision. 
+                        This move from showing what I made to explaining why I made it represents a key growth in my ability to present design work.
+                    </p>
+                </div>
+
+                <div class="col-sm-2">
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="container-fluid bg-w text-center">
+            <h1>Long Form</h1><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Ten-page Spread </h3>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+                        <div class="hover">
+                            <img src="project11/project11_1.png" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                    </a>
+                    <p>This is a 10-page interior design magazine I designed and typeset using Adobe InDesign. 
+                        Centered on the theme “Home as an Extension of Self,” it combines visuals and text to present home aesthetics and lifestyle concepts. 
+                        I independently handled the layout and content integration, and I am quite satisfied with this piece in terms of editorial design and visual communication.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Client Project</h3>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
+                        <div class="hover">
+                            <img src="project10.jpg" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                    </a>
+                    <p>This is the final logo I designed for Goose the Market. After several discussions with the store owner and presenting two initial concepts, I refined and finalized the logo using Adobe InDesign. 
+                        The design balances the shop's character with brand needs, creating a visual identity that supports its commercial presence.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>UX Design Branding Project</h3>
+                    <!--Target property opens link in new browser window  -->
+                    <a href="https://docs.google.com/presentation/d/1Zftr2WTXvDv-MAoJvSkxko_mICbMOgs9B7LluyiruGU/edit?usp=sharing" target="_blank">
+                        <!-- Alternatively, you can embed an iframe in the modal window with link to website.-->
+                        <div class="hover">
+                            <img src="project12.png" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                    </a>
+                    <p>“Pawse” is my personal brand, and its logo was created entirely in Adobe InDesign. 
+                        I first developed two versions of the brand name, fonts, color palette, and mission statement, then gathered feedback from three participants. 
+                        Based on their input, I created A/B logo drafts, collected another round of feedback, and finalized the design. 
+                        The process emphasized user involvement and iterative refinement.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container-fluid bg-w text-left">
+            <h3 class="margin text-center">Course Goals</h3>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><em>1. Consider the role of rhetoric, technology, and ethics in acts of making.</em></p>
+                    <p>Across all three projects, I practiced how visual design shapes meaning (rhetoric) by using Adobe InDesign as the main tool (technology), 
+                        while ensuring respectful collaboration with clients and research participants (ethics).</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p><em>2. Leverage Design Principles.</em></p>
+                    <p>In the magazine, market logo, and personal brand projects, 
+                        I applied core design principles such as layout, hierarchy, simplicity, and consistency to create clear, functional, and visually balanced outcomes.
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p><em>3. Engage with others in a workshop environment.</em></p>
+                    <p>I actively sought feedback—from classmates during critiques, from the store owner of Goose the Market, 
+                        and from multiple participants for my brand “Pawse”—to refine my work through discussion and collaboration.</p>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+
+                <div class="col-sm-4">
+                    <p><em>4. Practice revision within and across media forms.</em></p>
+                    <p>Each project went through rounds of changes: the magazine layout was adjusted for print and digital viewing, 
+                        the market logo was revised based on client needs, and the Pawse logo evolved through A/B testing and participant input.
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p><em>5. Learn to present your work.</em></p>
+                    <p>I developed the ability to present my designs clearly—explaining my process, choices, and final results—whether in class presentations, 
+                        client meetings, or when sharing my personal brand vision.
+                    </p>
+                </div>
+
+                <div class="col-sm-2">
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+        <br>
+        <br>
+
+        <div class="container-fluid text-center">
+            <img src="image.png" class="center-large-image" alt="Steve" style="max-width:25%;max-height:25%;">
+            <p>generated by Pitt Fuego</p>
+            <p> “Why make a spark when you can light a fire?</p>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Stops video/audio from playing on modal close -->
+        <script>
+            $(function () {
+                $("body").on('hidden.bs.modal', function (e) {
+                    var $iframes = $(e.target).find("iframe");
+                    $iframes.each(function (index, iframe) {
+                        $(iframe).attr("src", $(iframe).attr("src"));
+                    });
+                });
+            });
+        </script>
+
+</body>
+
+</html>
+
+
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body" style>
+                            <img class="img-responsive" src="project2.jpg" style="width:100%" alt="">
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project4.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project5.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project6.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project7.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 8 -->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project8.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 9 -->
+<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project9.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 10 -->
+<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 11 -->
+<div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project11/project11_1.png" style="width:100%" alt="">
+                            <img class="img-responsive" src="project11/project11_2.png" style="width:100%" alt="">
+                            <img class="img-responsive" src="project11/project11_3.png" style="width:100%" alt="">
+                            <img class="img-responsive" src="project11/project11_4.png" style="width:100%" alt="">
+                            <img class="img-responsive" src="project11/project11_5.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal 12 -->
+<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="project10.jpg" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 13 -->
+<div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 14 -->
+<div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <img class="img-responsive" src="image.png" style="width:100%" alt="">
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
